@@ -9,6 +9,10 @@ desktop nav will disappear and instead hamburger menu will show */
     .about-containers {
         flex-wrap: wrap;
     }
+
+    #contact, #projects {
+        height: fit-content;
+    }
 }
 
 @media screen and (max-width: 1200px) {
